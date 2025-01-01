@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container-1 {
     background-color: #1f2937;
     color: white;
@@ -11,6 +20,12 @@
     gap: 100px;
     padding-top: 10px;
     padding-bottom: 75px;
+}
+
+.container-1 .header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -34,10 +49,14 @@ a {
 }
 /*  */
 
-.one {
+.container-1 .one {
     font-weight: 900;
-    font-size: 48px;
+    font-size: 30px;
     color: #f9faf8;
+}
+
+.container-1 .two {
+    font-size: 15px;
 }
 
 .button {
@@ -48,3 +67,38 @@ a {
     padding: 5px 15px 5px 15px;
 }
 
+/* Container 2 CSS */
+
+.container-2 .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+.container-2 .box {
+    border: solid 3px #3882F6;
+    border-radius: 15px;
+    background-color: white;
+
+    width: 100px;
+    height: 100px;
+    flex: 0 1;
+}
+
+.container-2 .randomHeader {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    font-weight: 900;
+    font-size: small;
+
+    padding: 20px;
+
+    /* max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto; */
+}
