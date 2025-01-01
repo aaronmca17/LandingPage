@@ -36,6 +36,9 @@ a {
 
 .container-1 .header2 {
     display: flex;
+    flex-grow: 1;
+    max-width: fit-content;
+    padding: 0 50px 0 50px;
 }
 
 .container-1 .part1 {
@@ -70,12 +73,14 @@ a {
 /* Container 2 CSS */
 
 .container-2 .boxes {
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-content: center;
     justify-content: center;
-    gap: 100px;
-    padding-top: 10px;
-    padding-bottom: 75px;
+    /* gap: 100px; */
+    /* padding-top: 10px;
+    padding-bottom: 75px; */
+    padding: 10px 0 75px 0;
+    flex-grow: 1;
 }
 
 .container-2 .box {
