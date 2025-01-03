@@ -7,12 +7,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Container 1 CSS */
 .container-1 {
     background-color: #1f2937;
     color: white;
 }
 
-.container-1 .header1{
+.container-1 .header1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,19 +27,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    max-width: fit-content;
+    padding: 0 50px;
 }
 
 a {
     text-decoration: none;
     color: white;
     padding: 15px;
-}
-
-.container-1 .header2 {
-    display: flex;
-    flex-grow: 1;
-    max-width: fit-content;
-    padding: 0 50px 0 50px;
 }
 
 .container-1 .part1 {
@@ -48,9 +45,8 @@ a {
 .container-1 .square {
     padding: 50px;
     margin: 15px;
-    background-color: gray
+    background-color: gray;
 }
-/*  */
 
 .container-1 .one {
     font-weight: 900;
@@ -67,43 +63,95 @@ a {
     color: white;
     border: #3882F6;
     border-radius: 8px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
 }
 
 /* Container 2 CSS */
-
 .container-2 .boxes {
-    display: flex; 
-    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    /* gap: 100px; */
-    /* padding-top: 10px;
-    padding-bottom: 75px; */
-    padding: 10px 0 75px 0;
-    flex-grow: 1;
+    gap: 20px;
+    padding: 20px 0 75px 0;
 }
 
 .container-2 .box {
     border: solid 3px #3882F6;
     border-radius: 15px;
     background-color: white;
-
     width: 100px;
     height: 100px;
-    flex: 0 1;
+}
+
+.container-2 .boxes .box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; 
+}
+
+.container-2 .boxes .text {
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 .container-2 .randomHeader {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Container 3 CSS */
+.container-3 {
+    background-color: #e5e7eb;
+}
+
+.container-3 .container-3text {
+    padding: 100px; /* padding: top right bottom left */
+    font-size: 24px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
+.container-3 .container-3text .signiture {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* Container 4 CSS */
+.container-4 {
+    color: white;
+    padding: 100px 150px 100px 150px;
+}
+
+.container-4 .blueBox {
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+
     display: flex;
-    align-content: center;
-    justify-content: center;
+    flex-direction: column;
+}
 
+.container-4 .blueBox .one {
     font-weight: 900;
-    font-size: small;
+}
 
-    padding: 20px;
+.container-4 .blueBox .two {
+    font-size: 12px;
+}
 
-    /* max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto; */
+.container-4 .blueBox .SignUp {
+    align-self: flex-end;
+    background-color: #3882F6;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: solid 1px white;
+    border-radius: 5px;
 }
