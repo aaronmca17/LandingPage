@@ -131,7 +131,7 @@ a {
 
 .container-4 .blueBox {
     background-color: #3882F6;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
 
     display: flex;
@@ -154,4 +154,14 @@ a {
     padding: 6px 12px;
     border: solid 1px white;
     border-radius: 5px;
+}
+
+/* Container 5 CSS */
+.container-5 {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 0 30px 0;
+    
+    text-align: center;
+    font-size: 12px;
 }
